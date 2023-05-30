@@ -8,7 +8,7 @@ Compared to the source code: recycled output and added socket closing (version 0
 
 ⌛ Plan to add the client part in the next versions for module and User Interface for server part.
 
-### 🔌 Import and Get Module
+### 🚀 Import and Get Module
 ```
 PS C:\Users\Lifailon> Import-Module $home\Desktop\pSyslog-0.2.psm1
 PS C:\Users\Lifailon> Get-Command -Module pSyslog-0.2
@@ -21,7 +21,7 @@ Function        Start-pSyslog                                      0.0        pS
 Function        Stop-pSyslog                                       0.0        pSyslog-0.2
 ```
 
-### 🚀 Management pSyslog Server (BackgroundJob mode)
+### 🔔 Management pSyslog Server (BackgroundJob mode)
 ```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
 PS C:\Users\Lifailon> Get-pSyslog -Status | fl
