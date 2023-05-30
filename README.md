@@ -47,7 +47,7 @@ StartTime : 30.05.2023 17:26:33
 StopTime  : 30.05.2023 17:28:21
 ```
 
-### 📊 Out log file to Object for collecting metrics
+### 📊 Out logfile to Object for collecting metrics
 ```
 PS C:\Users\Lifailon> Show-PSyslog -Informational
 3363
@@ -73,7 +73,7 @@ TimeServer          IPAddress     HostName  Type          TimeClient      Servic
 30-05-2023 12:20:38 192.168.3.102 zabbix-01 Informational 30 May 12:20:32 multipathd[784]       sda: add missing path
 ```
 
-### 🎉 Example
+### 🎉 Example output console
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.1-PS7.jpg)
 
