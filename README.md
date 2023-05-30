@@ -1,17 +1,17 @@
 # pSyslog
 
 ### 📚 Sources
-Server based on **.NET Class System.Net.Sockets** \
+Server based on **.NET Class System.Net.Sockets** to Background Job mode \
 Source code refactoring syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
 Documentation used: [metanit.com](https://metanit.com/sharp/net/3.1.php) \
-Compared to the source code: recycled output and added socket closing (**[pSyslog v.0.1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/pSyslog/0.1/pSyslog-0.1.psm1)**)
+Compared to the source code: recycled output and added socket closing (**[pSyslog v.0.1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/pSyslog/0.1/pSyslog-0.1.psm1)**) \
 
 ⌛ Plan to add the client part in the next versions for module and User Interface for server part.
 
 ### 🚀 Install Module
 
-Download and run the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
-Supported PSVersion 5.1 and 7.3
+For install module download and run the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
+**Supported PSVersion: 5.1 and 7.3**
 
 ```
 PS C:\Users\Lifailon> Import-Module pSyslog
@@ -25,7 +25,7 @@ Function        Start-pSyslog                                      0.2        pS
 Function        Stop-pSyslog                                       0.2        pSyslog
 ```
 
-### 📢 Management pSyslog Server (BackgroundJob mode)
+### 📟 pSyslog Server
 ```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
 PS C:\Users\Lifailon> Get-pSyslog -Status | fl
