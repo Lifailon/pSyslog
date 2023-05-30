@@ -1,13 +1,15 @@
-# PSyslog
+# pSyslog
 ### Import and Get Module
 ```
 PS C:\Users\Lifailon> Import-Module $home\Desktop\pSyslog-0.2.psm1
-PS C:\Users\Lifailon> (Get-Module pSyslog-0.2).ExportedCommands.Keys
+PS C:\Users\Lifailon> Get-Command -Module pSyslog-0.2
 
-Get-pSyslog
-Show-pSyslog
-Start-pSyslog
-Stop-pSyslog
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Get-pSyslog                                        0.0        pSyslog-0.2
+Function        Show-pSyslog                                       0.0        pSyslog-0.2
+Function        Start-pSyslog                                      0.0        pSyslog-0.2
+Function        Stop-pSyslog                                       0.0        pSyslog-0.2
 ```
 ### Managment pSyslog Server
 ```
