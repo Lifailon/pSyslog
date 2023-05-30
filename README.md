@@ -10,7 +10,7 @@ Compared to the source code: recycled output and added socket closing (**[pSyslo
 
 ### 🚀 Install Module
 
-For install module download and run the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
+For install module from the GitHub repository download and run the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
 **Supported PSVersion: 5.1 and 7.3**
 
 ```
