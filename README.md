@@ -21,7 +21,7 @@ Function        Start-pSyslog                                      0.0        pS
 Function        Stop-pSyslog                                       0.0        pSyslog-0.2
 ```
 
-### 🔔 Management pSyslog Server (BackgroundJob mode)
+### 📢 Management pSyslog Server (BackgroundJob mode)
 ```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
 PS C:\Users\Lifailon> Get-pSyslog -Status | fl
