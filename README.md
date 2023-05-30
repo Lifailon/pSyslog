@@ -2,23 +2,27 @@
 
 ### 📚 Sources
 Server based on **.NET Class System.Net.Sockets** \
-Source code refactoring syslog server: https://spiderip.com/blog/2018/07/syslog \
-Documentation used: https://metanit.com/sharp/net/3.1.php \
-Compared to the source code: recycled output and added socket closing (version 0.1)
+Source code refactoring syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
+Documentation used: [metanit.com](https://metanit.com/sharp/net/3.1.php) \
+Compared to the source code: recycled output and added socket closing (**[pSyslog v.0.1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/pSyslog/0.1/pSyslog-0.1.psm1)**)
 
 ⌛ Plan to add the client part in the next versions for module and User Interface for server part.
 
-### 🚀 Import and Get Module
+### 🚀 Install Module
+
+Download and run the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
+Supported PSVersion 5.1 and 7.3
+
 ```
-PS C:\Users\Lifailon> Import-Module $home\Desktop\pSyslog-0.2.psm1
-PS C:\Users\Lifailon> Get-Command -Module pSyslog-0.2
+PS C:\Users\Lifailon> Import-Module pSyslog
+PS C:\Users\Lifailon> Get-Command -Module pSyslog
 
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
-Function        Get-pSyslog                                        0.0        pSyslog-0.2
-Function        Show-pSyslog                                       0.0        pSyslog-0.2
-Function        Start-pSyslog                                      0.0        pSyslog-0.2
-Function        Stop-pSyslog                                       0.0        pSyslog-0.2
+Function        Get-pSyslog                                        0.2        pSyslog
+Function        Show-pSyslog                                       0.2        pSyslog
+Function        Start-pSyslog                                      0.2        pSyslog
+Function        Stop-pSyslog                                       0.2        pSyslog
 ```
 
 ### 📢 Management pSyslog Server (BackgroundJob mode)
