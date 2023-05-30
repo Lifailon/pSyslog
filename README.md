@@ -1,5 +1,14 @@
 # pSyslog
-### Import and Get Module
+
+### 📚 Sources
+Server based on **.NET Class System.Net.Sockets** \
+Source code refactoring syslog server: https://spiderip.com/blog/2018/07/syslog \
+Documentation used: https://metanit.com/sharp/net/3.1.php \
+Compared to the source code: recycled output and added socket closing (version 0.1)
+
+⌛ Plan to add the client part in the next versions for module and User Interface for server part.
+
+### 🔌 Import and Get Module
 ```
 PS C:\Users\Lifailon> Import-Module $home\Desktop\pSyslog-0.2.psm1
 PS C:\Users\Lifailon> Get-Command -Module pSyslog-0.2
@@ -11,7 +20,8 @@ Function        Show-pSyslog                                       0.0        pS
 Function        Start-pSyslog                                      0.0        pSyslog-0.2
 Function        Stop-pSyslog                                       0.0        pSyslog-0.2
 ```
-### Managment pSyslog Server
+
+### 🚀 Management pSyslog Server (BackgroundJob mode)
 ```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
 PS C:\Users\Lifailon> Get-pSyslog -Status | fl
@@ -36,7 +46,8 @@ Status    : Stopped
 StartTime : 30.05.2023 17:26:33
 StopTime  : 30.05.2023 17:28:21
 ```
-### Out log file to Object for collecting metrics
+
+### 📊 Out log file to Object for collecting metrics
 ```
 PS C:\Users\Lifailon> Show-PSyslog -Informational
 3363
