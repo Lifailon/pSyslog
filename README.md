@@ -72,3 +72,9 @@ TimeServer          IPAddress     HostName  Type          TimeClient      Servic
 30-05-2023 12:20:38 192.168.3.102 zabbix-01 Warning       30 May 12:20:32 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
 30-05-2023 12:20:38 192.168.3.102 zabbix-01 Informational 30 May 12:20:32 multipathd[784]       sda: add missing path
 ```
+
+### 🎉 Example
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.1-PS7.jpg)
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.1-PS5.jpg)
