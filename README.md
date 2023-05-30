@@ -1,13 +1,16 @@
 # PSyslog
-
+### Import and Get Module
 ```
 PS C:\Users\Lifailon> Import-Module $home\Desktop\pSyslog-0.2.psm1
 PS C:\Users\Lifailon> (Get-Module pSyslog-0.2).ExportedCommands.Keys
+
 Get-pSyslog
 Show-pSyslog
 Start-pSyslog
 Stop-pSyslog
-
+```
+### Managment pSyslog Server
+```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
 PS C:\Users\Lifailon> Get-pSyslog -Status | fl
 
@@ -30,7 +33,9 @@ PS C:\Users\Lifailon> Get-pSyslog -Status | fl
 Status    : Stopped
 StartTime : 30.05.2023 17:26:33
 StopTime  : 30.05.2023 17:28:21
-
+```
+### Out log file to Object for collecting metrics
+```
 PS C:\Users\Lifailon> Show-PSyslog -Informational
 3363
 PS C:\Users\Lifailon> Show-PSyslog -Warning
