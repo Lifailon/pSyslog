@@ -3,7 +3,7 @@
 ### 📚 Sources
 Server based on **.NET Class System.Net.Sockets** to Background Job mode. \
 Source code refactoring syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
-Documentation used: [metanit.com](https://metanit.com/sharp/net/3.1.php) \
+Documentation used: **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
 Compared to the source code: recycled output and added socket closing (**[pSyslog v.0.1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/pSyslog/0.1/pSyslog-0.1.psm1)**)
 
 ⌛ Plan to add the client part in the next versions for module and User Interface for server part.
