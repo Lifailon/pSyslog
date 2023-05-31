@@ -10,8 +10,8 @@ Compared to the source code: recycled output and added socket closing to **[pSys
 
 ### 🚀 Install Module
 
-For install module from the GitHub repository download and run the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
-**Use the command:** \
+For install or update module from the GitHub repository use the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
+**Use the command in the Powershell console:**
 ```
 Invoke-Expression(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/Lifailon/pSyslog/rsa/Module/Deploy-pSyslog.ps1")
 ```
