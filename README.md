@@ -14,8 +14,8 @@ For install or update module from the GitHub repository (used the script **[Depl
 ```
 Invoke-Expression(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/Lifailon/pSyslog/rsa/Module/Deploy-pSyslog.ps1")
 ```
-**Supported PSVersion: 5.1 and 7.3**
-
+**Supported PSVersion:** 5.1 and 7.3 \
+Import module and get command list:
 ```
 PS C:\Users\Lifailon> Import-Module pSyslog
 PS C:\Users\Lifailon> Get-Command -Module pSyslog
