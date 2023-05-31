@@ -5,9 +5,8 @@ Syslog Server and Client based on **.NET Class System.Net.Sockets** to Backgroun
 💡 **Development stage**
 
 ### 📚 Sources
-Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode. \
-Source code refactoring syslog server (recycled output and added socket closing): **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
 Documentation used: **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
+Source code refactoring syslog server (recycled output and added socket closing): **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
 Source udp client: **[cloudbrothers.info](https://cloudbrothers.info/en/test-udp-connection-powershell/)**
 
 ### 🚀 Install Module
