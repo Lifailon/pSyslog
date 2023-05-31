@@ -1,9 +1,13 @@
 # pSyslog
 
+Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode. \
+💡 **Development stage**
+
 ### 📚 Sources
 Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode. \
 Source code refactoring syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
 Documentation used: **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
+Source udp client: **[cloudbrothers.info](https://cloudbrothers.info/en/test-udp-connection-powershell/)** \
 Compared to the source code: recycled output and added socket closing to **[pSyslog version 0.1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/pSyslog/0.1/pSyslog-0.1.psm1)**
 
 ### 🚀 Install Module
@@ -57,7 +61,7 @@ StopTime  : 30.05.2023 17:28:21
 ```
 Send-pSyslog -Message "Test message" -Server 192.168.3.99 -PortServer 514 -PortClient 55514
 ```
-**or use pipeline:**
+**Or use pipeline:**
 ```
 "Test message" | Send-pSyslog -Server 192.168.3.99
 ```
@@ -90,6 +94,6 @@ TimeServer          IPAddress     HostName  Type          TimeClient      Servic
 
 ### 🎉 Example output console
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.1-PS7.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Server.jpg.jpg)
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.1-PS5.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/ubuntu-tail-syslog.jpg)
