@@ -1,6 +1,6 @@
 # pSyslog
 
-Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode. \
+Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode.
 
 💡 **Development stage**
 
@@ -25,10 +25,11 @@ PS C:\Users\Lifailon> Get-Command -Module pSyslog
 
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
-Function        Get-pSyslog                                        0.2        pSyslog
-Function        Show-pSyslog                                       0.2        pSyslog
-Function        Start-pSyslog                                      0.2        pSyslog
-Function        Stop-pSyslog                                       0.2        pSyslog
+Function        Get-pSyslog                                        0.3        pSyslog
+Function        Send-pSyslog                                       0.3        pSyslog
+Function        Show-pSyslog                                       0.3        pSyslog
+Function        Start-pSyslog                                      0.3        pSyslog
+Function        Stop-pSyslog                                       0.3        pSyslog
 ```
 
 ### 📫 pSyslog Server
