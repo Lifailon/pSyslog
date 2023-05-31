@@ -4,13 +4,17 @@
 Syslog Server based on **.NET Class System.Net.Sockets** to Background Job mode. \
 Source code refactoring syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
 Documentation used: **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
-Compared to the source code: recycled output and added socket closing (**[pSyslog v.0.1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/pSyslog/0.1/pSyslog-0.1.psm1)**)
+Compared to the source code: recycled output and added socket closing to **[pSyslog v.0.1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/pSyslog/0.1/pSyslog-0.1.psm1)**
 
 ⌛ Plan to add the client part in the next versions for module and User Interface for server part.
 
 ### 🚀 Install Module
 
 For install module from the GitHub repository download and run the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)** \
+**Use the command:** \
+```
+Invoke-Expression(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/Lifailon/pSyslog/rsa/Module/Deploy-pSyslog.ps1")
+```
 **Supported PSVersion: 5.1 and 7.3**
 
 ```
