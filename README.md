@@ -6,7 +6,7 @@ Syslog Server and Client based on **.NET Class System.Net.Sockets** to Backgroun
 
 ### 📚 Sources
 Documentation used: **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
-Source syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
+Source code refactoring syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
 Source udp client: **[cloudbrothers.info](https://cloudbrothers.info/en/test-udp-connection-powershell/)**
 
 ### 🚀 Install Module
