@@ -94,6 +94,6 @@ TimeServer          IPAddress     HostName  Type          TimeClient      Servic
 
 ### 🎉 Example output console
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Server.jpg.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Server.jpg)
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/ubuntu-tail-syslog.jpg)
