@@ -97,22 +97,24 @@ PS C:\Users\Lifailon> Show-pSyslog -Type Unknown -Count
 8
 ```
 
+### Out-GridView`
+
 `Show-pSyslog | Out-GridView`
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-Out-GridView.jpg)
 
-### 🎉 Example output console
+### Example output console
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Reception-Unknown-Message.jpg)
 
-**Local syslog (using tail):**
+### Local syslog (using tail)
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Local-Syslog-Tail.jpg)
 
-**Sending (use cmdlet powershell Send-pSyslog) to rSyslog:**
+### Sending (use cmdlet powershell Send-pSyslog) to rSyslog
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-to-rSyslog-Server.jpg)
 
-**Sending to Visual Syslog Server:**
+### Sending to Visual Syslog Server
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-to-Visual-Syslog-Server.jpg)
