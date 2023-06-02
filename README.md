@@ -72,28 +72,28 @@ Send-pSyslog -Message "Test message" -Server 192.168.3.99 -PortServer 514 -PortC
 ```
 PS C:\Users\Lifailon> Show-pSyslog | Format-Table
 
-TimeServer          IPAddress     HostName Type          TimeClient  Service    Message
-----------          ---------     -------- ----          ----------  -------    -------
-02-06-2023 14:46:18 192.168.3.102 14:46:16 Informational  Jun 2      zabbix-01  sda: add missing path
-02-06-2023 14:46:18 192.168.3.102 14:46:16 Informational  Jun 2      zabbix-01  sda: failed to get udev uid: Invalid argument
-02-06-2023 14:46:18 192.168.3.102 14:46:16 Informational  Jun 2      zabbix-01  sda: failed to get sysfs uid: Invalid argument
-02-06-2023 14:46:18 192.168.3.102 14:46:16 Informational  Jun 2      zabbix-01  sda: failed to get sgio uid: No such file or directory
-02-06-2023 14:46:18 192.168.3.102 14:46:17 Warning        Jun 2      zabbix-01  Using degraded feature set (UDP) for DNS server 192.168.3.101.
-02-06-2023 14:46:21 192.168.3.102 14:46:20 Warning        Jun 2      zabbix-01  Using degraded feature set (TCP) for DNS server 192.168.3.101.
+TimeServer           IPAddress      HostName   Type           TimeClient      Service                Message
+----------           ---------      --------   ----           ----------      -------                -------
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: add missing path
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: failed to get udev uid: Invalid argument
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: failed to get sysfs uid: Invalid argument
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: failed to get sgio uid: No such file or directory
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Warning        2 Jun 14:46:17  systemd-resolved[938]  Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 14:46:21  192.168.3.102  zabbix-01  Warning        2 Jun 14:46:20  systemd-resolved[938]  Using degraded feature set (TCP) for DNS server 192.168.3.101.
 
 PS C:\Users\Lifailon> Show-pSyslog -Type Warning | Format-Table
 
-TimeServer          IPAddress     HostName Type    TimeClient Service    Message
-----------          ---------     -------- ----    ---------- -------    -------
-02-06-2023 14:46:06 0.0.0.0       14:46:05 Warning  Jun 2     zabbix-01  Using degraded feature set (UDP) for DNS server 192.168.3.101.
-02-06-2023 14:46:09 192.168.3.102 14:46:08 Warning  Jun 2     zabbix-01  Using degraded feature set (TCP) for DNS server 192.168.3.101.
-02-06-2023 14:46:18 192.168.3.102 14:46:17 Warning  Jun 2     zabbix-01  Using degraded feature set (UDP) for DNS server 192.168.3.101.
-02-06-2023 14:46:21 192.168.3.102 14:46:20 Warning  Jun 2     zabbix-01  Using degraded feature set (TCP) for DNS server 192.168.3.101.
+TimeServer          IPAddress     HostName  Type    TimeClient     Service               Message
+----------          ---------     --------  ----    ----------     -------               -------
+02-06-2023 14:46:06 0.0.0.0       zabbix-01 Warning 2 Jun 14:46:05 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 14:46:09 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:08 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
+02-06-2023 14:46:18 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:17 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 14:46:21 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:20 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
 
 PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
-1149
+1253
 PS C:\Users\Lifailon> Show-pSyslog -Type Warning -Count
-231
+251
 PS C:\Users\Lifailon> Show-pSyslog -Type Unknown -Count
 8
 ```
