@@ -83,12 +83,11 @@ TimeServer           IPAddress      HostName   Type           TimeClient      Se
 
 PS C:\Users\Lifailon> Show-pSyslog -Type Warning | Format-Table
 
-TimeServer          IPAddress     HostName  Type    TimeClient     Service               Message
-----------          ---------     --------  ----    ----------     -------               -------
-02-06-2023 14:46:06 0.0.0.0       zabbix-01 Warning 2 Jun 14:46:05 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
-02-06-2023 14:46:09 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:08 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
-02-06-2023 14:46:18 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:17 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
-02-06-2023 14:46:21 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:20 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
+TimeServer           IPAddress      HostName   Type           TimeClient      Service                Message
+----------           ---------      --------   ----           ----------      -------                -------
+02-06-2023 14:46:09  192.168.3.102  zabbix-01  Warning        2 Jun 14:46:08  systemd-resolved[938]  Using degraded feature set (TCP) for DNS server 192.168.3.101.
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Warning        2 Jun 14:46:17  systemd-resolved[938]  Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 14:46:21  192.168.3.102  zabbix-01  Warning        2 Jun 14:46:20  systemd-resolved[938]  Using degraded feature set (TCP) for DNS server 192.168.3.101.
 
 PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
 1253
@@ -100,14 +99,16 @@ PS C:\Users\Lifailon> Show-pSyslog -Type Unknown -Count
 
 `Show-pSyslog | Out-GridView`
 
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.4-Show-Out-GridView.jpg)
+
 ### 🎉 Example output console
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Reception-from-pServer.jpg)
+Reception-from-pServe
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Ubuntu-Tail-Local-Syslog.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Local-Syslog-Tail.jpg)
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.4-Reception-Unknown-Message.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Reception-Unknown-Message.jpg)
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.4-Send-to-rSyslog-Server.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-to-rSyslog-Server.jpg)
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.4-Send-to-Visual-Syslog-Server.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-to-Visual-Syslog-Server.jpg)
