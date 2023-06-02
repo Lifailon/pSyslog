@@ -24,76 +24,90 @@ PS C:\Users\Lifailon> Get-Command -Module pSyslog
 
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
-Function        Get-pSyslog                                        0.3        pSyslog
-Function        Send-pSyslog                                       0.3        pSyslog
-Function        Show-pSyslog                                       0.3        pSyslog
-Function        Start-pSyslog                                      0.3        pSyslog
-Function        Stop-pSyslog                                       0.3        pSyslog
+Function        Get-pSyslog                                        0.4        pSyslog
+Function        Send-pSyslog                                       0.4        pSyslog
+Function        Show-pSyslog                                       0.4        pSyslog
+Function        Start-pSyslog                                      0.4        pSyslog
+Function        Stop-pSyslog                                       0.4        pSyslog
 ```
 
 ### 📫 pSyslog Server
 ```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
-PS C:\Users\Lifailon> Get-pSyslog -Status | fl
+PS C:\Users\Lifailon> Get-pSyslog -Status | Format-List
 
 Status    : Running
-StartTime : 30.05.2023 17:26:33
+StartTime : 02.06.2023 17:44:53
 StopTime  :
 
 PS C:\Users\Lifailon> Get-pSyslog
 
-30-05-2023 17:26:37 0.0.0.0 Informational May 30 17:26:31 zabbix-01 multipathd[784]: sda: add missing path
-30-05-2023 17:26:37 192.168.3.102 Informational May 30 17:26:31 zabbix-01 multipathd[784]: sda: failed to get udev uid: Invalid argument
-30-05-2023 17:26:37 192.168.3.102 Informational May 30 17:26:31 zabbix-01 multipathd[784]: sda: failed to get sysfs uid: Invalid argument
-30-05-2023 17:26:37 192.168.3.102 Informational May 30 17:26:31 zabbix-01 multipathd[784]: sda: failed to get sgio uid: No such file or directory
-30-05-2023 17:26:39 192.168.3.102 Warning May 30 17:26:33 zabbix-01 systemd-resolved[938]: Using degraded feature set (UDP) for DNS server 192.168.3.101.
+PS C:\Users\Lifailon> Get-pSyslog
+02-06-2023 17:44:57 0.0.0.0 Informational Jun  2 17:44:56 zabbix-01 multipathd[783]: sda: add missing path
+02-06-2023 17:44:57 192.168.3.102 Informational Jun  2 17:44:56 zabbix-01 multipathd[783]: sda: failed to get udev uid: Invalid argument
+02-06-2023 17:44:57 192.168.3.102 Informational Jun  2 17:44:56 zabbix-01 multipathd[783]: sda: failed to get sysfs uid: Invalid argument
+02-06-2023 17:44:57 192.168.3.102 Informational Jun  2 17:44:56 zabbix-01 multipathd[783]: sda: failed to get sgio uid: No such file or directory
+02-06-2023 17:44:58 192.168.3.102 Warning Jun  2 17:44:56 zabbix-01 systemd-resolved[938]: Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 17:45:01 192.168.3.102 Warning Jun  2 17:44:59 zabbix-01 systemd-resolved[938]: Using degraded feature set (TCP) for DNS server 192.168.3.101.
 ...
 
 PS C:\Users\Lifailon> Stop-pSyslog
-PS C:\Users\Lifailon> Get-pSyslog -Status | fl
+PS C:\Users\Lifailon> Get-pSyslog -Status | Format-List
 
 Status    : Stopped
-StartTime : 30.05.2023 17:26:33
-StopTime  : 30.05.2023 17:28:21
+StartTime : 02.06.2023 17:44:53
+StopTime  : 02.06.2023 17:57:59
 ```
 
-### 📧 pSyslog Client (added to version 0.3)
+### 📧 pSyslog Client
 ```
 Send-pSyslog -Message "Test message" -Server 192.168.3.99 -PortServer 514 -PortClient 55514
 ```
 **Or use pipeline:**
 ```
-"Test message" | Send-pSyslog -Server 192.168.3.99
+"Status $((Get-Service -Name winrm).Name) - $((Get-Service -Name winrm).Status)" | Send-pSyslog -Server 192.168.3.99
 ```
 
 ### 📊 Out logfile to Object for collecting metrics
 ```
-PS C:\Users\Lifailon> Show-PSyslog -Informational
-3363
-PS C:\Users\Lifailon> Show-PSyslog -Warning
-675
-PS C:\Users\Lifailon> Show-PSyslog -Error
-0
-PS C:\Users\Lifailon> Show-PSyslog -Critical
-0
+PS C:\Users\Lifailon> Show-pSyslog | Format-Table
 
-PS C:\Users\Lifailon> Show-PSyslog | ft
+TimeServer           IPAddress      HostName   Type           TimeClient      Service                Message
+----------           ---------      --------   ----           ----------      -------                -------
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: add missing path
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: failed to get udev uid: Invalid argument
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: failed to get sysfs uid: Invalid argument
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Informational  2 Jun 14:46:16  multipathd[783]        sda: failed to get sgio uid: No such file or directory
+02-06-2023 14:46:18  192.168.3.102  zabbix-01  Warning        2 Jun 14:46:17  systemd-resolved[938]  Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 14:46:21  192.168.3.102  zabbix-01  Warning        2 Jun 14:46:20  systemd-resolved[938]  Using degraded feature set (TCP) for DNS server 192.168.3.101.
 
-TimeServer          IPAddress     HostName  Type          TimeClient      Service               Message
-----------          ---------     --------  ----          ----------      -------               -------
-30-05-2023 12:20:13 192.168.3.102 zabbix-01 Warning       30 May 12:20:07 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
-30-05-2023 12:20:16 192.168.3.102 zabbix-01 Warning       30 May 12:20:11 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
-30-05-2023 12:20:28 0.0.0.0       zabbix-01 Warning       30 May 12:20:23 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
-30-05-2023 12:20:33 192.168.3.102 zabbix-01 Informational 30 May 12:20:27 multipathd[784]       sda: add missing path
-30-05-2023 12:20:33 192.168.3.102 zabbix-01 Informational 30 May 12:20:27 multipathd[784]       sda: failed to get udev uid: Invalid argument
-30-05-2023 12:20:33 192.168.3.102 zabbix-01 Informational 30 May 12:20:27 multipathd[784]       sda: failed to get sysfs uid: Invalid argument
-30-05-2023 12:20:33 192.168.3.102 zabbix-01 Informational 30 May 12:20:27 multipathd[784]       sda: failed to get sgio uid: No such file or directory
-30-05-2023 12:20:38 192.168.3.102 zabbix-01 Warning       30 May 12:20:32 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
-30-05-2023 12:20:38 192.168.3.102 zabbix-01 Informational 30 May 12:20:32 multipathd[784]       sda: add missing path
+PS C:\Users\Lifailon> Show-pSyslog -Type Warning | Format-Table
+
+TimeServer          IPAddress     HostName  Type    TimeClient     Service               Message
+----------          ---------     --------  ----    ----------     -------               -------
+02-06-2023 14:46:06 0.0.0.0       zabbix-01 Warning 2 Jun 14:46:05 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 14:46:09 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:08 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
+02-06-2023 14:46:18 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:17 systemd-resolved[938] Using degraded feature set (UDP) for DNS server 192.168.3.101.
+02-06-2023 14:46:21 192.168.3.102 zabbix-01 Warning 2 Jun 14:46:20 systemd-resolved[938] Using degraded feature set (TCP) for DNS server 192.168.3.101.
+
+PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
+1253
+PS C:\Users\Lifailon> Show-pSyslog -Type Warning -Count
+251
+PS C:\Users\Lifailon> Show-pSyslog -Type Unknown -Count
+8
 ```
+
+`Show-pSyslog | Out-GridView`
 
 ### 🎉 Example output console
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Server.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Reception-from-pServer.jpg)
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/ubuntu-tail-syslog.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.3-Ubuntu-Tail-Local-Syslog.jpg)
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.4-Reception-Unknown-Message.jpg)
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.4-Send-to-rSyslog-Server.jpg)
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/0.4-Send-to-Visual-Syslog-Server.jpg)
