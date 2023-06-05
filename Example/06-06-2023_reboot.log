@@ -1,0 +1,952 @@
+06-06-2023 01:21:49 0.0.0.0 Informational Jun 6 01:21:49 zabbix-01 multipathd[784]: sda: add missing path
+06-06-2023 01:21:49 192.168.3.102 Informational Jun 6 01:21:49 zabbix-01 multipathd[784]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:21:49 192.168.3.102 Informational Jun 6 01:21:49 zabbix-01 multipathd[784]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:21:49 192.168.3.102 Informational Jun 6 01:21:49 zabbix-01 multipathd[784]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:21:54 192.168.3.102 Informational Jun 6 01:21:54 zabbix-01 multipathd[784]: sda: add missing path
+06-06-2023 01:21:54 192.168.3.102 Informational Jun 6 01:21:54 zabbix-01 multipathd[784]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:21:54 192.168.3.102 Informational Jun 6 01:21:54 zabbix-01 multipathd[784]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:21:54 192.168.3.102 Informational Jun 6 01:21:54 zabbix-01 multipathd[784]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 sshd[3465]: Accepted password for lifailon from 192.168.3.99 port 62030 ssh2
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 sshd[3465]: pam_unix(sshd:session): session opened for user lifailon by (uid=0)
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[1]: Created slice User Slice of UID 1000.
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[1]: Starting User Runtime Directory /run/user/1000...
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd-logind[970]: New session 52 of user lifailon.
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[1]: Finished User Runtime Directory /run/user/1000.
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[1]: Starting User Manager for UID 1000...
+06-06-2023 01:21:58 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd: pam_unix(systemd-user:session): session opened for user lifailon by (uid=0)
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Reached target Paths.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Reached target Timers.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Starting D-Bus User Message Bus Socket.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on GnuPG network certificate management daemon.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on GnuPG cryptographic agent and passphrase cache.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on debconf communication socket.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on REST API socket for snapd user session agent.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Listening on D-Bus User Message Bus Socket.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Reached target Sockets.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Reached target Basic System.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Reached target Main User Target.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[3484]: Startup finished in 68ms.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[1]: Started User Manager for UID 1000.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:58 zabbix-01 systemd[1]: Started Session 52 of user lifailon.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 multipathd[784]: sda: add missing path
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 multipathd[784]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 multipathd[784]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 multipathd[784]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 sshd[3483]: Accepted password for lifailon from 192.168.3.99 port 62031 ssh2
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 sshd[3483]: pam_unix(sshd:session): session opened for user lifailon by (uid=0)
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 systemd[1]: Started Session 54 of user lifailon.
+06-06-2023 01:21:59 192.168.3.102 Informational Jun 6 01:21:59 zabbix-01 systemd-logind[970]: New session 54 of user lifailon.
+06-06-2023 01:22:01 192.168.3.102 Informational Jun 6 01:22:01 zabbix-01 CRON[3700]: pam_unix(cron:session): session opened for user root by (uid=0)
+06-06-2023 01:22:01 192.168.3.102 Informational Jun 6 01:22:01 zabbix-01 CRON[3701]: (root) CMD (date >> /dump/zabbix/cron-test-date.txt)
+06-06-2023 01:22:01 192.168.3.102 Informational Jun 6 01:22:01 zabbix-01 CRON[3700]: pam_unix(cron:session): session closed for user root
+06-06-2023 01:22:01 192.168.3.102 Alert Jun 6 01:22:01 zabbix-01 sudo: lifailon : problem with defaults entries ; TTY=pts/0 ; PWD=/home/lifailon ; USER=root ; 
+06-06-2023 01:22:01 192.168.3.102 Notice Jun 6 01:22:01 zabbix-01 sudo: lifailon : TTY=pts/0 ; PWD=/home/lifailon ; USER=root ; COMMAND=/usr/bin/su
+06-06-2023 01:22:01 192.168.3.102 Informational Jun 6 01:22:01 zabbix-01 sudo: pam_unix(sudo:session): session opened for user root by lifailon(uid=0)
+06-06-2023 01:22:01 192.168.3.102 Notice Jun 6 01:22:01 zabbix-01 su: (to root) lifailon on pts/0
+06-06-2023 01:22:01 192.168.3.102 Informational Jun 6 01:22:01 zabbix-01 su: pam_unix(su:session): session opened for user root by lifailon(uid=0)
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 su: pam_unix(su:session): session closed for user root
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 sshd[3465]: pam_unix(sshd:session): session closed for user lifailon
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Session 52 of user lifailon.
+06-06-2023 01:22:03 192.168.3.102 Error Jun 6 01:22:03 zabbix-01 sshd[3465]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Session 54 of user lifailon.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 sshd[3483]: pam_unix(sshd:session): session closed for user lifailon
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Removed slice system-modprobe.slice.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Bluetooth.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Cloud-init target.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Graphical Interface.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Remote File Systems (Pre).
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Sound Card.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Timers.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: apt-daily-upgrade.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Daily apt upgrade and clean activities.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: apt-daily.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Daily apt download activities.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: e2scrub_all.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: fstrim.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Discard unused blocks once a week.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: fwupd-refresh.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Refresh fwupd metadata regularly.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: logrotate.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Daily rotation of log files.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: man-db.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Daily man-db regeneration.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: motd-news.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Message of the Day.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: phpsessionclean.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Clean PHP session files every 30 mins.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: ua-timer.timer: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Ubuntu Advantage Timer for running repeated jobs.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target System Time Synchronized.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: lvm2-lvmpolld.socket: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Closed LVM2 poll daemon socket.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: systemd-rfkill.socket: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Accounts Service...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Availability of block devices...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: cloud-final.service: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Execute cloud user/final scripts.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Multi-User System.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Login Prompts.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Modem Manager...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 ModemManager[1004]: <info> caught signal, shutting down...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping The Apache HTTP Server...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping LSB: automatic crash report generation...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Deferred execution scheduler...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: cloud-config.service: Succeeded.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped Apply the settings specified in cloud-config.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Cloud-config availability.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopped target Network is Online.
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Regular background program processing daemon...
+06-06-2023 01:22:03 192.168.3.102 Informational Jun 6 01:22:03 zabbix-01 systemd[1]: Stopping Create final runtime dir for shutdown pivot root...
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting udev Wait for Complete Device Initialization...
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Flush Journal to Persistent Storage.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-udevd[587]: Using default interface naming scheme 'v245'.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-udevd[587]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+06-06-2023 01:22:17 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 multipath: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:17 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 multipath: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:22:17 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 multipath: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Load/Save RF Kill Switch Status...
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-udevd[584]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Bluetooth.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Load/Save RF Kill Switch Status.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 udevadm[597]: systemd-udev-settle.service is deprecated.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Arbitrary Executable File Formats File System...
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Arbitrary Executable File Formats File System.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-sysctl[571]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-sysctl[571]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Flush Journal to Persistent Storage...
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 lvm[548]: 1 logical volume(s) in volume group "ubuntu-vg" monitored
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished udev Coldplug all Devices.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Local Encrypted Volumes.
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 646 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:17 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 689 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 703 (snap)
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Found device VMware_Virtual_S 2.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Created slice system-lvm2\x2dpvscan.slice.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting LVM event activation on device 8:3...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 lvm[774]: pvscan[774] PV /dev/sda3 online, VG ubuntu-vg is complete.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 lvm[774]: pvscan[774] VG ubuntu-vg skip autoactivation.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished LVM event activation on device 8:3.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Sound Card.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished udev Wait for Complete Device Initialization.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Device-Mapper Multipath Device Controller...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 multipathd[780]: --------start up--------
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 multipathd[780]: read /etc/multipath.conf
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 multipathd[780]: path checkers start up
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 multipathd[780]: sda: failed to get unknown uid: Invalid argument
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Device-Mapper Multipath Device Controller.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Local File Systems (Pre).
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting /boot...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for bare, revision 5...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for core18, revision 2679...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for core18, revision 2751...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for core20, revision 1822...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for core20, revision 1891...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for core22, revision 634...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for core22, revision 750...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for gnome-3-38-2004, revision 119...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for gnome-3-38-2004, revision 140...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for gnome-42-2204, revision 102...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1535...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for lxd, revision 19188...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for lxd, revision 24061...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for snap-store, revision 638...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for snap-store, revision 959...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for snapd, revision 17950...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting Mount unit for snapd, revision 19361...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted /boot.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for bare, revision 5.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for core20, revision 1822.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for core22, revision 634.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for core22, revision 750.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for gnome-3-38-2004, revision 119.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for core18, revision 2679.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for core18, revision 2751.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for core20, revision 1891.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for lxd, revision 19188.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for gtk-common-themes, revision 1535.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for snap-store, revision 959.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for lxd, revision 24061.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for snap-store, revision 638.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for snapd, revision 17950.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for snapd, revision 19361.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for gnome-42-2204, revision 102.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounted Mount unit for gnome-3-38-2004, revision 140.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Mounted snaps.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Local File Systems.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Load AppArmor profiles...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Set console font and keymap...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in LXD - agent - 9p mount being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in LXD - agent being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Create Volatile Files and Directories...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Set console font and keymap.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: plymouth-read-write.service: Succeeded.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 apparmor.systemd[850]: Restarting AppArmor
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 apparmor.systemd[850]: Reloading AppArmor profiles
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Create Volatile Files and Directories.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Network Time Synchronization...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 apparmor.systemd[869]: Warning: found usr.sbin.sssd in /etc/apparmor.d/force-complain, forcing complain mode
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 apparmor.systemd[872]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Network Time Synchronization.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target System Time Set.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target System Time Synchronized.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 apparmor.systemd[869]: Warning from /etc/apparmor.d (/etc/apparmor.d/usr.sbin.sssd line 59): Warning failed to create cache: usr.sbin.sssd
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Load AppArmor profiles.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Service for virtual machines hosted on VMware.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Initial cloud-init job (pre-networking)...
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: Core dump limit set to -1
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: INIT SERVICE
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 VGAuthService[879]: BEGIN SERVICE
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 snapd-apparmor[878]: main.go:124: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.17950 /var/lib/snapd/apparmor/profiles/snap-confine.snapd.19361 /var/lib/snapd/apparmor/profiles/snap-update-ns.lxd /var/lib/snapd/apparmor/profiles/snap-update-ns.snap-store /var/lib/snapd/apparmor/profiles/snap.lxd.activate /var/lib/snapd/apparmor/profiles/snap.lxd.benchmark /var/lib/snapd/apparmor/profiles/snap.lxd.buginfo /var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel /var/lib/snapd/apparmor/profiles/snap.lxd.daemon /var/lib/snapd/apparmor/profiles/snap.lxd.hook.configure /var/lib/snapd/apparmor/profiles/snap.lxd.hook.install /var/lib/snapd/apparmor/profiles/snap.lxd.hook.remove /var/lib/snapd/apparmor/profiles/snap.lxd.lxc /var/lib/snapd/apparmor/profiles/snap.lxd.lxc-to-lxd /var/lib/snapd/apparmor/profiles/snap.lxd.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.migrate /var/lib/snapd/apparmor/profiles/snap.snap-store.hook.configure /var/lib/snapd/apparmor/profiles/snap.snap-store.snap-store /var/lib/snapd/apparmor/profiles/snap.snap-store.ubuntu-software /var/lib/snapd/apparmor/profiles/snap.snap-store.ubuntu-software-local-file]
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[924]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'init-local' at Mon, 05 Jun 2023 22:22:14 +0000. Up 6.28 seconds.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Initial cloud-init job (pre-networking).
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Network (Pre).
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Network Service...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-networkd[925]: Enumeration completed
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Network Service.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-networkd[925]: ens33: IPv6 successfully enabled
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Wait for Network to be Configured...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Network Name Resolution...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-networkd[925]: ens33: Link UP
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-networkd[925]: ens33: Gained carrier
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-timesyncd[862]: Network configuration changed, trying to establish connection.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-resolved[927]: Positive Trust Anchors:
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-resolved[927]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-resolved[927]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-resolved[927]: Using system hostname 'zabbix-01'.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Network Name Resolution.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Network.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Host and Network Name Lookups.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-networkd[925]: ens33: Gained IPv6LL
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-timesyncd[862]: Network configuration changed, trying to establish connection.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd-networkd-wait-online[926 managing: ens33
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Wait for Network to be Configured.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'init' at Mon, 05 Jun 2023 22:22:16 +0000. Up 8.42 seconds.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | Device | Up | Address | Mask | Scope | Hw-Address |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | ens33 | True | 192.168.3.102 | 255.255.255.0 | global | 00:0c:29:49:9a:91 |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | ens33 | True | fe80::20c:29ff:fe49:9a91/64 | . | link | 00:0c:29:49:9a:91 |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | lo | True | 127.0.0.1 | 255.0.0.0 | host | . |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | lo | True | ::1/128 | . | host | . |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | Route | Destination | Gateway | Genmask | Interface | Flags |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | 0 | 0.0.0.0 | 192.168.3.1 | 0.0.0.0 | ens33 | UG |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | 1 | 192.168.3.0 | 0.0.0.0 | 255.255.255.0 | ens33 | U |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +-------+-------------+---------+-----------+-------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +-------+-------------+---------+-----------+-------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | 1 | fe80::/64 | :: | ens33 | U |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | 3 | local | :: | ens33 | U |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: | 4 | multicast | :: | ens33 | U |
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 cloud-init[932]: ci-info: +-------+-------------+---------+-----------+-------+
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Initial cloud-init job (metadata service crawler).
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Cloud-config availability.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Network is Online.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target System Initialization.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Daily apt download activities.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Daily apt upgrade and clean activities.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Discard unused blocks once a week.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Refresh fwupd metadata regularly.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Daily rotation of log files.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Daily man-db regeneration.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Message of the Day.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Clean PHP session files every 30 mins.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Daily Cleanup of Temporary Directories.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Paths.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Timers.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Listening on cloud-init hotplug hook socket.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Listening on D-Bus System Message Bus Socket.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Listening on Open-iSCSI iscsid Socket.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Socket activation for snappy daemon.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Listening on UUID daemon activation socket.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Remote File Systems (Pre).
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: dump-smb.mount: Directory /dump/smb to mount over is not empty, mounting anyway.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Mounting /dump/smb...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Availability of block devices...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Listening on Socket activation for snappy daemon.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Sockets.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Basic System.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started D-Bus System Message Bus.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Save initial kernel messages after boot.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Record successful boot for GRUB...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started irqbalance daemon.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting MySQL Community Server...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started privileged operations for unprivileged applications.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Set the CPU Frequency Scaling governor being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting The PHP 7.4 FastCGI Process Manager...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Authorization Manager...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting System Logging Service...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Service for snap application lxd.activate...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Userspace listener for prompt events being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target Login Prompts (Pre).
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Snap Daemon...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Simple Network Management Protocol (SNMP) Daemon....
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting OpenBSD Secure Shell server...
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in System Security Services Daemon being skipped.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Reached target User and Group Name Lookups.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-nss.socket: Bound to unit sssd.service, but unit isn't active.
+06-06-2023 01:22:18 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 systemd[1]: Dependency failed for SSSD NSS Service responder socket.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-nss.socket: Job sssd-nss.socket/start failed with result 'dependency'.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-autofs.socket: Bound to unit sssd.service, but unit isn't active.
+06-06-2023 01:22:18 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 systemd[1]: Dependency failed for SSSD AutoFS Service responder socket.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-autofs.socket: Job sssd-autofs.socket/start failed with result 'dependency'.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-pac.socket: Bound to unit sssd.service, but unit isn't active.
+06-06-2023 01:22:18 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 systemd[1]: Dependency failed for SSSD PAC Service responder socket.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-pac.socket: Job sssd-pac.socket/start failed with result 'dependency'.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-pam-priv.socket: Bound to unit sssd.service, but unit isn't active.
+06-06-2023 01:22:18 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 systemd[1]: Dependency failed for SSSD PAM Service responder private socket.
+06-06-2023 01:22:18 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 systemd[1]: Dependency failed for SSSD PAM Service responder socket.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-pam.socket: Job sssd-pam.socket/start failed with result 'dependency'.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] Linux version 5.4.0-150-generic (buildd@bos03-amd64-009) (gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1)) #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 (Ubuntu 5.4.0-150.167-generic 5.4.233)
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-pam-priv.socket: Job sssd-pam-priv.socket/start failed with result 'dependency'.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-ssh.socket: Bound to unit sssd.service, but unit isn't active.
+06-06-2023 01:22:18 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 systemd[1]: Dependency failed for SSSD SSH Service responder socket.
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-ssh.socket: Job sssd-ssh.socket/start failed with result 'dependency'.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] Command line: BOOT_IMAGE=/vmlinuz-5.4.0-150-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro debian-installer/custom-installation=/custom find_preseed=/preseed.cfg auto preseed/file=/floppy/preseed.cfg automatic-ubiquity noprompt priority=critical locale=en_US console-setup/modelcode=evdev
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-sudo.socket: Bound to unit sssd.service, but unit isn't active.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] KERNEL supported cpus:
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] Intel GenuineIntel
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] AMD AuthenticAMD
+06-06-2023 01:22:18 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 systemd[1]: Dependency failed for SSSD Sudo Service responder socket.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] Hygon HygonGenuine
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] Centaur CentaurHauls
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] zhaoxin Shanghai 
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] Disabled fast string operations
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] x86/fpu: xstate_offset[2]: 576, xstate_sizes[2]: 256
+06-06-2023 01:22:18 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 systemd[1]: sssd-sudo.socket: Job sssd-sudo.socket/start failed with result 'dependency'.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-provided physical RAM map:
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009e7ff] usable
+06-06-2023 01:22:18 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Accounts Service...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Resets System Activity Data Collector...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Login Service...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Thermal Daemon Service being skipped.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Condition check resulted in Ubuntu Advantage reboot cmds being skipped.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Disk Manager...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started vnStat network traffic monitor.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting Zabbix Agent...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Availability of block devices.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Simple Network Management Protocol (SNMP) Daemon..
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Resets System Activity Data Collector.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd. [v8.2001.0]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started System Logging Service.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 dbus-daemon[941]: dbus[941]: Unknown group "power" in message bus configuration file
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 rsyslogd: rsyslogd's groupid changed to 110
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 rsyslogd: rsyslogd's userid changed to 104
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="956" x-info="https://www.rsyslog.com"] start
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x000000000009e800-0x000000000009ffff] reserved
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007fedffff] usable
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x000000007fee0000-0x000000007fefefff] ACPI data
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x000000007feff000-0x000000007fefffff] ACPI NVS
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x000000007ff00000-0x000000007fffffff] usable
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x00000000f0000000-0x00000000f7ffffff] reserved
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] BIOS-e820: [mem 0x00000000fffe0000-0x00000000ffffffff] reserved
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] NX (Execute Disable) protection: active
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] SMBIOS 2.7 present.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] DMI: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 11/12/2020
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] vmware: hypercall mode: 0x02
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] Hypervisor detected: VMware
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] vmware: TSC freq read from hypervisor : 2904.000 MHz
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] vmware: Host bus clock speed read from hypervisor : 66000000 Hz
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000000] vmware: using sched offset of 2078212082 ns
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.000001] tsc: Detected 2904.000 MHz processor
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003351] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003352] e820: remove [mem 0x000a0000-0x000fffff] usable
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.003355] last_pfn = 0x80000 max_arch_pfn = 0x400000000
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003373] MTRR default type: uncachable
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003374] MTRR fixed ranges enabled:
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003375] 00000-9FFFF write-back
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003376] A0000-BFFFF uncachable
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003376] C0000-CFFFF write-protect
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003376] D0000-EFFFF uncachable
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003377] F0000-FFFFF write-protect
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003377] MTRR variable ranges enabled:
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003378] 0 base 000000000000 mask 1FFF00000000 write-back
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003379] 1 base 0000C0000000 mask 1FFFC0000000 uncachable
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003379] 2 disabled
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003379] 3 disabled
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003380] 4 disabled
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003380] 5 disabled
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003380] 6 disabled
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.003380] 7 disabled
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.003390] x86/PAT: Configuration [0-7]: WB WC UC- UC WB WP UC- WT 
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.003401] total RAM covered: 3072M
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.003726] Found optimal setting for mtrr clean up
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.003726] gran_size: 64K chunk_size: 64K num_reg: 2 lose cover RAM: 0G
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.010446] found SMP MP-table at [mem 0x000f6a70-0x000f6a7f]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012449] check: Scanning 1 areas for low memory corruption
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012475] Using GB pages for direct mapping
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012548] RAMDISK: [mem 0x2da99000-0x32d43fff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012553] ACPI: Early table checksum verification disabled
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012557] ACPI: RSDP 0x00000000000F6A00 000024 (v02 PTLTD )
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012560] ACPI: XSDT 0x000000007FEE965B 00005C (v01 INTEL 440BX 06040000 VMW 01324272)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012564] ACPI: FACP 0x000000007FEFEE73 0000F4 (v04 INTEL 440BX 06040000 PTL 000F4240)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012569] ACPI: DSDT 0x000000007FEEAD55 01411E (v01 PTLTD Custom 06040000 MSFT 03000001)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012574] ACPI: FACS 0x000000007FEFFFC0 000040
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012577] ACPI: FACS 0x000000007FEFFFC0 000040
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012579] ACPI: BOOT 0x000000007FEEAD2D 000028 (v01 PTLTD $SBFTBL$ 06040000 LTP 00000001)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012582] ACPI: APIC 0x000000007FEEA5EB 000742 (v01 PTLTD ? APIC 06040000 LTP 00000000)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012585] ACPI: MCFG 0x000000007FEEA5AF 00003C (v01 PTLTD $PCITBL$ 06040000 LTP 00000001)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012587] ACPI: SRAT 0x000000007FEE9757 0008A8 (v02 VMWARE MEMPLUG 06040000 VMW 00000001)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012590] ACPI: HPET 0x000000007FEE971F 000038 (v01 VMWARE VMW HPET 06040000 VMW 00000001)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012592] ACPI: WAET 0x000000007FEE96F7 000028 (v01 VMWARE VMW WAET 06040000 VMW 00000001)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012594] ACPI: Reserving FACP table memory at [mem 0x7fefee73-0x7fefef66]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012595] ACPI: Reserving DSDT table memory at [mem 0x7feead55-0x7fefee72]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012596] ACPI: Reserving FACS table memory at [mem 0x7fefffc0-0x7fefffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012597] ACPI: Reserving FACS table memory at [mem 0x7fefffc0-0x7fefffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012597] ACPI: Reserving BOOT table memory at [mem 0x7feead2d-0x7feead54]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012598] ACPI: Reserving APIC table memory at [mem 0x7feea5eb-0x7feead2c]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012598] ACPI: Reserving MCFG table memory at [mem 0x7feea5af-0x7feea5ea]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012599] ACPI: Reserving SRAT table memory at [mem 0x7fee9757-0x7fee9ffe]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012600] ACPI: Reserving HPET table memory at [mem 0x7fee971f-0x7fee9756]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012600] ACPI: Reserving WAET table memory at [mem 0x7fee96f7-0x7fee971e]
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.012620] ACPI: Local APIC address 0xfee00000
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.012628] system APIC only can use physical flat
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012628] Setting APIC routing to physical flat.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012693] SRAT: PXM 0 -> APIC 0x00 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012694] SRAT: PXM 0 -> APIC 0x02 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012695] SRAT: PXM 0 -> APIC 0x04 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012695] SRAT: PXM 0 -> APIC 0x06 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012696] SRAT: PXM 0 -> APIC 0x08 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012696] SRAT: PXM 0 -> APIC 0x0a -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012697] SRAT: PXM 0 -> APIC 0x0c -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012697] SRAT: PXM 0 -> APIC 0x0e -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012698] SRAT: PXM 0 -> APIC 0x10 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012698] SRAT: PXM 0 -> APIC 0x12 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012699] SRAT: PXM 0 -> APIC 0x14 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012699] SRAT: PXM 0 -> APIC 0x16 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012700] SRAT: PXM 0 -> APIC 0x18 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012700] SRAT: PXM 0 -> APIC 0x1a -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012701] SRAT: PXM 0 -> APIC 0x1c -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012701] SRAT: PXM 0 -> APIC 0x1e -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012701] SRAT: PXM 0 -> APIC 0x20 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012702] SRAT: PXM 0 -> APIC 0x22 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012702] SRAT: PXM 0 -> APIC 0x24 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012703] SRAT: PXM 0 -> APIC 0x26 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012703] SRAT: PXM 0 -> APIC 0x28 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012704] SRAT: PXM 0 -> APIC 0x2a -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012704] SRAT: PXM 0 -> APIC 0x2c -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012705] SRAT: PXM 0 -> APIC 0x2e -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012705] SRAT: PXM 0 -> APIC 0x30 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012706] SRAT: PXM 0 -> APIC 0x32 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012706] SRAT: PXM 0 -> APIC 0x34 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012707] SRAT: PXM 0 -> APIC 0x36 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012707] SRAT: PXM 0 -> APIC 0x38 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012708] SRAT: PXM 0 -> APIC 0x3a -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012708] SRAT: PXM 0 -> APIC 0x3c -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012709] SRAT: PXM 0 -> APIC 0x3e -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012709] SRAT: PXM 0 -> APIC 0x40 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012710] SRAT: PXM 0 -> APIC 0x42 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012710] SRAT: PXM 0 -> APIC 0x44 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012711] SRAT: PXM 0 -> APIC 0x46 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012711] SRAT: PXM 0 -> APIC 0x48 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012712] SRAT: PXM 0 -> APIC 0x4a -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012712] SRAT: PXM 0 -> APIC 0x4c -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012713] SRAT: PXM 0 -> APIC 0x4e -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012747] SRAT: PXM 0 -> APIC 0xde -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012748] SRAT: PXM 0 -> APIC 0xe0 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012748] SRAT: PXM 0 -> APIC 0xe2 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012749] SRAT: PXM 0 -> APIC 0xe4 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012749] SRAT: PXM 0 -> APIC 0xe6 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012750] SRAT: PXM 0 -> APIC 0xe8 -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.012750] SRAT: PXM 0 -> APIC 0xea -> Node 0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020211] ACPI: LAPIC_NMI (acpi_id[0x1b] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020211] ACPI: LAPIC_NMI (acpi_id[0x1c] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020212] ACPI: LAPIC_NMI (acpi_id[0x1d] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020212] ACPI: LAPIC_NMI (acpi_id[0x1e] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020213] ACPI: LAPIC_NMI (acpi_id[0x1f] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020213] ACPI: LAPIC_NMI (acpi_id[0x20] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020214] ACPI: LAPIC_NMI (acpi_id[0x21] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.020214] ACPI: LAPIC_NMI (acpi_id[0x22] high edge lint[0x1])
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035826] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035827] pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035829] pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035830] pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035831] pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035832] pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035834] pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035835] pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035838] pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035839] pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+06-06-2023 01:22:19 192.168.3.102 Debug Jun 6 01:22:17 zabbix-01 kernel: [ 0.035841] pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.055862] rcu: Hierarchical RCU implementation.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.055864] rcu: RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=128.
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 0.085188] *** VALIDATE proc ***
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 0.085344] *** VALIDATE cgroup1 ***
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 0.085432] *** VALIDATE cgroup2 ***
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.085584] Disabled fast string operations
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.085737] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+06-06-2023 01:22:19 192.168.3.102 Warning Jun 6 01:22:17 zabbix-01 kernel: [ 0.090769] core: CPUID marked event: 'cpu cycles' unavailable
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.180951] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.181029] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.189588] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.190731] pci 0000:00:07.3: quirk: [io 0x1000-0x103f] claimed by PIIX4 ACPI
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.190822] pci 0000:00:07.3: quirk: [io 0x1040-0x104f] claimed by PIIX4 SMB
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.231271] pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.242265] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.256852] acpiphp: Slot [56] registered
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.256891] acpiphp: Slot [57] registered
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.256958] acpiphp: Slot [58] registered
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.366730] pci 0000:00:16.3: bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.373687] pci 0000:00:16.4: PCI bridge to [bus 0f]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.373779] pci 0000:00:16.4: bridge window [mem 0xfc300000-0xfc3fffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.476906] pci 0000:00:18.2: bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.484178] pci 0000:00:18.3: PCI bridge to [bus 1e]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.484268] pci 0000:00:18.3: bridge window [mem 0xfc500000-0xfc5fffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.591057] thermal_sys: Registered thermal governor 'user_space'
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.595888] pci 0000:00:15.3: bridge window [io 0x1000-0x0fff] to [bus 06] add_size 1000
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.595977] pci 0000:00:15.4: bridge window [io 0x1000-0x0fff] to [bus 07] add_size 1000
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.596065] pci 0000:00:15.5: bridge window [io 0x1000-0x0fff] to [bus 08] add_size 1000
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.596152] pci 0000:00:15.6: bridge window [io 0x1000-0x0fff] to [bus 09] add_size 1000
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.596244] pci 0000:00:15.7: bridge window [io 0x1000-0x0fff] to [bus 0a] add_size 1000
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.596343] pci 0000:00:16.3: bridge window [io 0x1000-0x0fff] to [bus 0e] add_size 1000
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.607624] pci 0000:00:16.0: bridge window [io 0x5000-0x5fff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.607716] pci 0000:00:16.0: bridge window [mem 0xfd300000-0xfd3fffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.607815] pci 0000:00:16.0: bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.607945] pci 0000:00:16.1: PCI bridge to [bus 0c]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.608013] pci 0000:00:16.1: bridge window [io 0x9000-0x9fff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.608105] pci 0000:00:16.1: bridge window [mem 0xfcf00000-0xfcffffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.613908] pci 0000:00:18.2: PCI bridge to [bus 1d]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.613991] pci 0000:00:18.2: bridge window [mem 0xfc900000-0xfc9fffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.619467] pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.619535] pci_bus 0000:11: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.619614] pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.853860] check: Scanning for low memory corruption every 60 seconds
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 0.855012] Initialise system trusted keyrings
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.862571] pcieport 0000:00:15.2: pciehp: Slot #162 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.888590] pcieport 0000:00:18.1: pciehp: Slot #257 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 0.923149] Linux agpgart interface v0.103
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.079549] hub 1-0:1.0: 6 ports detected
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.080130] ehci-platform: EHCI generic platform driver
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.080392] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.080995] ohci-pci: OHCI PCI platform driver
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.081209] ohci-platform: OHCI generic platform driver
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.081501] uhci_hcd: USB Universal Host Controller Interface driver
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.082886] uhci_hcd 0000:02:00.0: UHCI Host Controller
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.083110] uhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.083532] uhci_hcd 0000:02:00.0: detected 2 ports
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.084141] uhci_hcd 0000:02:00.0: irq 18, io base 0x00002080
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.084674] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.088864] mousedev: PS/2 mouse device common for all mice
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 1.120985] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 1.121103] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.249225] Freeing unused kernel image memory: 736K
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.259172] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.259281] Run /init as init process
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.418999] ata6: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee280 irq 56
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.419916] ata16: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee780 irq 56
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.420006] ata17: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee800 irq 56
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.746134] ata29: SATA link down (SStatus 0 SControl 300)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.746386] ata25: SATA link down (SStatus 0 SControl 300)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.794030] usb 2-2: New USB device found, idVendor=0e0f, idProduct=0002, bcdDevice= 1.00
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.794241] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 1.865413] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x29dc03c1beb, max_idle_ns: 440795205215 ns
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 2.783195] Btrfs loaded, crc32c=crc32c-intel
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 5.701849] NET: Registered protocol family 40
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 6.413466] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 kernel: [ 6.414190] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 kernel: [ 8.671151] FS-Cache: Loaded
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 mount[938]: mount error(13): Permission denied
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 mount[938]: Refer to the mount.cifs(8) manual page (e.g. man mount.cifs) and kernel log messages (dmesg)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Starting LSB: automatic crash report generation...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: plymouth-quit.service: Succeeded.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Finished Terminate Plymouth Boot Screen.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: e2scrub_reap.service: Succeeded.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Disk Manager.
+06-06-2023 01:22:19 192.168.3.102 Notice Jun 6 01:22:17 zabbix-01 udisksd[971]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started The PHP 7.4 FastCGI Process Manager.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:17 zabbix-01 systemd[1]: Started Dispatcher daemon for systemd-networkd.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:16 plex-01 Service[WinRM] Running
+06-06-2023 01:22:19 192.168.3.100 Informational Jun 6 01:22:18 zabbix-01 systemd[1]: tmp-snap.rootfs_leBI8z.mount: Succeeded.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 snapd[959]: overlord.go:272: Acquiring state lock file
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 snapd[959]: overlord.go:277: Acquired state lock file
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 snapd[959]: daemon.go:247: started snapd/2.59.4 (series 16; classic) ubuntu/20.04 (amd64) linux/5.4.0-150-generic.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: tmp-syscheck\x2dmountpoint\x2d044428429.mount: Succeeded.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 snapd[959]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 snapd[959]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Started MySQL Community Server.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Starting Zabbix Server...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Started Snap Daemon.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Starting Wait until snapd is fully seeded...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 dbus-daemon[941]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.13' (uid=0 pid=959 comm="/usr/lib/snapd/snapd " label="unconfined")
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Starting Time & Date Service...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 lxd.activate[957]: => Starting LXD activation
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 lxd.activate[957]: ==> Loading snap configuration
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 lxd.activate[957]: ==> Checking for socket activation support
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Started Zabbix Server.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 dbus-daemon[941]: [system] Successfully activated service 'org.freedesktop.timedate1'
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Started Time & Date Service.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Finished Wait until snapd is fully seeded.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Starting Apply the settings specified in cloud-config...
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 lxd.activate[957]: ==> Setting LXD socket ownership
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 lxd.activate[957]: ==> LXD never started on this system, no need to start it now
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: snap.lxd.activate.service: Succeeded.
+06-06-2023 01:22:19 192.168.3.102 Informational Jun 6 01:22:19 zabbix-01 systemd[1]: Finished Service for snap application lxd.activate.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 cloud-init[1276]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'modules:config' at Mon, 05 Jun 2023 22:22:19 +0000. Up 11.53 seconds.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Finished Apply the settings specified in cloud-config.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Reached target Multi-User System.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Reached target Graphical Interface.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Starting Execute cloud user/final scripts...
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Finished Update UTMP about System Runlevel Changes.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 ModemManager[1042]: <info> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0': not supported by any plugin
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 cloud-init[1359]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'modules:final' at Mon, 05 Jun 2023 22:22:20 +0000. Up 12.07 seconds.
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 cloud-init[1359]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 finished at Mon, 05 Jun 2023 22:22:20 +0000. Datasource DataSourceNone. Up 12.19 seconds
+06-06-2023 01:22:20 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 cloud-init[1359]: 2023-06-05 22:22:20,586 - cc_final_message.py[WARNING]: Used fallback datasource
+06-06-2023 01:22:21 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Finished Execute cloud user/final scripts.
+06-06-2023 01:22:21 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Reached target Cloud-init target.
+06-06-2023 01:22:21 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: Startup finished in 2.971s (kernel) + 9.267s (userspace) = 12.238s.
+06-06-2023 01:22:21 192.168.3.102 Informational Jun 6 01:22:20 zabbix-01 systemd[1]: dmesg.service: Succeeded.
+06-06-2023 01:22:22 192.168.3.102 Informational Jun 6 01:22:22 zabbix-01 multipathd[780]: sda: triggering change event to reinitialize
+06-06-2023 01:22:22 192.168.3.102 Warning Jun 6 01:22:22 zabbix-01 multipath: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:22 192.168.3.102 Warning Jun 6 01:22:22 zabbix-01 multipath: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:22:22 192.168.3.102 Warning Jun 6 01:22:22 zabbix-01 multipath: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:22:22 192.168.3.102 Informational Jun 6 01:22:22 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:22 192.168.3.102 Informational Jun 6 01:22:22 zabbix-01 multipathd[780]: sda: failed to get unknown uid: Invalid argument
+06-06-2023 01:22:22 192.168.3.102 Informational Jun 6 01:22:22 zabbix-01 multipathd[780]: sda: failed to get path uid
+06-06-2023 01:22:22 192.168.3.102 Informational Jun 6 01:22:22 zabbix-01 multipathd[780]: uevent trigger error
+06-06-2023 01:22:32 192.168.3.102 Informational Jun 6 01:22:32 zabbix-01 multipathd[780]: sda: triggering change event to reinitialize
+06-06-2023 01:22:32 192.168.3.102 Warning Jun 6 01:22:32 zabbix-01 multipath: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:32 192.168.3.102 Warning Jun 6 01:22:32 zabbix-01 multipath: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:22:32 192.168.3.102 Warning Jun 6 01:22:32 zabbix-01 multipath: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:22:32 192.168.3.102 Informational Jun 6 01:22:32 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:32 192.168.3.102 Informational Jun 6 01:22:32 zabbix-01 multipathd[780]: sda: failed to get unknown uid: Invalid argument
+06-06-2023 01:22:32 192.168.3.102 Informational Jun 6 01:22:32 zabbix-01 multipathd[780]: sda: failed to get path uid
+06-06-2023 01:22:32 192.168.3.102 Informational Jun 6 01:22:32 zabbix-01 multipathd[780]: uevent trigger error
+06-06-2023 01:22:42 192.168.3.102 Informational Jun 6 01:22:42 zabbix-01 multipathd[780]: sda: triggering change event to reinitialize
+06-06-2023 01:22:42 192.168.3.102 Warning Jun 6 01:22:42 zabbix-01 multipath: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:42 192.168.3.102 Warning Jun 6 01:22:42 zabbix-01 multipath: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:22:42 192.168.3.102 Warning Jun 6 01:22:42 zabbix-01 multipath: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:22:42 192.168.3.102 Informational Jun 6 01:22:42 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:42 192.168.3.102 Informational Jun 6 01:22:42 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:22:42 192.168.3.102 Informational Jun 6 01:22:42 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:22:42 192.168.3.102 Informational Jun 6 01:22:42 zabbix-01 multipathd[780]: sda: failed to get path uid
+06-06-2023 01:22:42 192.168.3.102 Informational Jun 6 01:22:42 zabbix-01 multipathd[780]: uevent trigger error
+06-06-2023 01:22:46 192.168.3.102 Informational Jun 6 01:22:46 zabbix-01 systemd-timesyncd[862]: Initial synchronization to time server 91.189.94.4:123 (ntp.ubuntu.com).
+06-06-2023 01:22:50 192.168.3.102 Informational Jun 6 01:22:50 zabbix-01 systemd[1]: systemd-timedated.service: Succeeded.
+06-06-2023 01:22:52 192.168.3.102 Informational Jun 6 01:22:52 zabbix-01 multipathd[780]: sda: not initialized after 3 udev retriggers
+06-06-2023 01:22:53 192.168.3.102 Informational Jun 6 01:22:53 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:22:53 192.168.3.102 Informational Jun 6 01:22:53 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:53 192.168.3.102 Informational Jun 6 01:22:53 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:22:53 192.168.3.102 Informational Jun 6 01:22:53 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:22:58 192.168.3.102 Informational Jun 6 01:22:58 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:22:58 192.168.3.102 Informational Jun 6 01:22:58 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:22:58 192.168.3.102 Informational Jun 6 01:22:58 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:22:58 192.168.3.102 Informational Jun 6 01:22:58 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:23:01 192.168.3.102 Informational Jun 6 01:23:01 zabbix-01 CRON[1433]: pam_unix(cron:session): session opened for user root by (uid=0)
+06-06-2023 01:23:01 192.168.3.102 Informational Jun 6 01:23:01 zabbix-01 CRON[1440]: (root) CMD (date >> /dump/zabbix/cron-test-date.txt)
+06-06-2023 01:23:01 192.168.3.102 Informational Jun 6 01:23:01 zabbix-01 CRON[1433]: pam_unix(cron:session): session closed for user root
+06-06-2023 01:23:03 192.168.3.102 Informational Jun 6 01:23:03 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:23:03 192.168.3.102 Informational Jun 6 01:23:03 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:23:03 192.168.3.102 Informational Jun 6 01:23:03 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:23:03 192.168.3.102 Informational Jun 6 01:23:03 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:23:08 192.168.3.102 Informational Jun 6 01:23:08 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:23:08 192.168.3.102 Informational Jun 6 01:23:08 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:23:08 192.168.3.102 Informational Jun 6 01:23:08 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:23:08 192.168.3.102 Informational Jun 6 01:23:08 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:23:13 192.168.3.102 Informational Jun 6 01:23:13 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:23:13 192.168.3.102 Informational Jun 6 01:23:13 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:23:13 192.168.3.102 Informational Jun 6 01:23:13 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:23:13 192.168.3.102 Informational Jun 6 01:23:13 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:23:18 192.168.3.102 Informational Jun 6 01:23:18 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:23:18 192.168.3.102 Informational Jun 6 01:23:18 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:23:18 192.168.3.102 Informational Jun 6 01:23:18 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:23:18 192.168.3.102 Informational Jun 6 01:23:18 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:23:23 192.168.3.102 Informational Jun 6 01:23:23 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:23:23 192.168.3.102 Informational Jun 6 01:23:23 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:23:23 192.168.3.102 Informational Jun 6 01:23:23 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:23:23 192.168.3.102 Informational Jun 6 01:23:23 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
+06-06-2023 01:23:28 192.168.3.102 Informational Jun 6 01:23:28 zabbix-01 multipathd[780]: sda: add missing path
+06-06-2023 01:23:28 192.168.3.102 Informational Jun 6 01:23:28 zabbix-01 multipathd[780]: sda: failed to get udev uid: Invalid argument
+06-06-2023 01:23:28 192.168.3.102 Informational Jun 6 01:23:28 zabbix-01 multipathd[780]: sda: failed to get sysfs uid: Invalid argument
+06-06-2023 01:23:28 192.168.3.102 Informational Jun 6 01:23:28 zabbix-01 multipathd[780]: sda: failed to get sgio uid: No such file or directory
