@@ -1,4 +1,4 @@
-# pSyslog (development stage 💡)
+# pSyslog
 
 Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode.
 
@@ -16,7 +16,7 @@ Invoke-Expression(New-Object Net.WebClient).DownloadString("https://raw.githubus
 ```
 **Supported PSVersion:** 5.1 and 7.3
 
-Import module and get command list:
+**Import module and get command list:**
 ```
 PS C:\Users\Lifailon> Import-Module pSyslog
 PS C:\Users\Lifailon> Get-Command -Module pSyslog
@@ -65,14 +65,12 @@ StopTime  : 06.06.2023 1:13:43
 Send-pSyslog -Content "Test" -Server 192.168.3.99
 Send-pSyslog -Content "Test" -Server 192.168.3.99 -Type Informational -PortServer 514 -PortClient 55514
 ```
-
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog.jpg)
 
-### Use pipeline and sending to rSyslog server:
+### 📢 Use pipeline and sending to rSyslog server:
 ```
-(Get-Service -Name WinRM).Status | Send-pSyslog -Server 192.168.3.99 -Tag Service[WinRM]
+(Get-Service -Name WinRM).Status | Send-pSyslog -Server 192.168.3.102 -Tag Service[WinRM]
 ```
-
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog-Rsyslog.jpg)
 
 ### 📊 Out logfile to Object for collecting metrics
