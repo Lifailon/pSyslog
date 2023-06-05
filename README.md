@@ -73,54 +73,43 @@ Send-pSyslog -Message "Test" -Server 192.168.3.99 -Type Informational -PortServe
 ```
 
 ### 📊 Out logfile to Object for collecting metrics
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-pSyslog-Metrics.jpg)
+
 ```
-PS C:\Users\Lifailon> Show-pSyslog | Format-Table
-
-TimeServer          IPAddress     HostName  Type          TimeClient     Tag                              Message
-----------          ---------     --------  ----          ----------     ---                              -------
-...
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[3484]                    Listening on REST API socket for snapd user session agent.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[3484]                    Listening on D-Bus User Message Bus Socket.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[3484]                    Reached target Sockets.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[3484]                    Reached target Basic System.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[3484]                    Reached target Main User Target.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[3484]                    Startup finished in 68ms.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[1]                       Started User Manager for UID 1000.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:58 systemd[1]                       Started Session 52 of user lifailon.
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:59 multipathd[784]                  sda: add missing path
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:59 multipathd[784]                  sda: failed to get udev uid: Invalid argument
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:59 multipathd[784]                  sda: failed to get sysfs uid: Invalid argument
-06-06-2023 01:21:59 192.168.3.102 zabbix-01 Informational 6 Jun 01:21:59 multipathd[784]                  sda: failed to get sgio uid: No such file or directory
-...
-
-Example logfile system reboot: 
-
-PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
-1253
 PS C:\Users\Lifailon> Show-pSyslog -Type Warning -Count
-251
-PS C:\Users\Lifailon> Show-pSyslog -Type Unknown -Count
-8
+2917
+PS C:\Users\Lifailon> Show-pSyslog -Type Alert -Count
+36
+PS C:\Users\Lifailon> Show-pSyslog -Type Critical -Count
+5
+PS C:\Users\Lifailon> Show-pSyslog -Type Error -Count
+5
+PS C:\Users\Lifailon> Show-pSyslog -Type Emergency -Count
+0
+PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
+15491
 ```
 
 ### 🔍 Search
 
 `Show-pSyslog | Out-GridView`
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-Out-GridView.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-pSyslog-Out-GridView.jpg)
 
-### 🎉 Example output console
+Example logfile system reboot: **[06-06-2023_reboot.log](https://github.com/Lifailon/pSyslog/blob/rsa/Example/06-06-2023_reboot.log)**
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Reception-Unknown-Message.jpg)
+### 🎉 Example output console powershell:
 
-**Local syslog (using tail)**
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/pSyslog-Console.jpg)
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Local-Syslog-Tail.jpg)
+### 💬 Example output local syslog (using tail):
 
-### 💬 Sending use cmdlet powershell Send-pSyslog to rSyslog
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Syslog-Local-Tail.jpg)
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-to-rSyslog-Server.jpg)
+### Example use cmdlet powershell Send-pSyslog: 
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog.jpg)
 
-**Sending to Visual Syslog Server**
+### Sending to rSyslog
 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-to-Visual-Syslog-Server.jpg)
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog-Rsyslog.jpg)
