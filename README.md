@@ -63,7 +63,7 @@ StopTime  : 06.06.2023 1:13:43
 ### 📧 pSyslog Client
 ```
 Send-pSyslog -Content "Test" -Server 192.168.3.99
-Send-pSyslog -Message "Test" -Server 192.168.3.99 -Type Informational -PortServer 514 -PortClient 55514
+Send-pSyslog -Content "Test" -Server 192.168.3.99 -Type Informational -PortServer 514 -PortClient 55514
 ```
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog.jpg)
