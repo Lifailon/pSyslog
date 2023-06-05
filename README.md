@@ -1,8 +1,6 @@
-# pSyslog
+# pSyslog (development stage 💡)
 
 Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode.
-
-💡 **Development stage**
 
 ### 📚 Sources
 Documentation used (udp socket): **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
@@ -35,7 +33,7 @@ Function        Stop-pSyslog             0.5        pSyslog
 ### 📫 pSyslog Server
 ```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
-PS C:\Users\Lifailon>  Get-pSyslog -Status | Format-List
+PS C:\Users\Lifailon> Get-pSyslog -Status | Format-List
 
 Status    : Running
 StartTime : 06.06.2023 1:09:47
@@ -67,15 +65,17 @@ StopTime  : 06.06.2023 1:13:43
 Send-pSyslog -Content "Test" -Server 192.168.3.99
 Send-pSyslog -Message "Test" -Server 192.168.3.99 -Type Informational -PortServer 514 -PortClient 55514
 ```
-**Or use pipeline:**
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog.jpg)
+
+### Use pipeline and sending to rSyslog server:
 ```
 (Get-Service -Name WinRM).Status | Send-pSyslog -Server 192.168.3.99 -Tag Service[WinRM]
 ```
 
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog-Rsyslog.jpg)
+
 ### 📊 Out logfile to Object for collecting metrics
-
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-pSyslog-Metrics.jpg)
-
 ```
 PS C:\Users\Lifailon> Show-pSyslog -Type Warning -Count
 2917
@@ -91,9 +91,15 @@ PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
 15491
 ```
 
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-pSyslog-Metrics.jpg)
+
 ### 🔍 Search
 
 `Show-pSyslog | Out-GridView`
+
+**Or view old journal by wildcard file name:**
+
+`Show-pSyslog -LogFile 05-06 | Out-GridView`
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-pSyslog-Out-GridView.jpg)
 
@@ -106,10 +112,3 @@ Example logfile system reboot: **[06-06-2023_reboot.log](https://github.com/Lifa
 ### 💬 Example output local syslog (using tail):
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Syslog-Local-Tail.jpg)
-
-### Example use cmdlet powershell Send-pSyslog: 
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog.jpg)
-
-### Sending to rSyslog
-
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog-Rsyslog.jpg)
