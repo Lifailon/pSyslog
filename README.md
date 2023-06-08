@@ -5,13 +5,13 @@ Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.So
 - [📚 Sources](#-Sources)
 - [🚀 Install](#-Install-Module)
 - [📭 Server](#-pSyslog-Server)
-- [✉️ Client](#-pSyslog-Client)
+- [✉️ Client](#%EF%B8%8F-pSyslog-Client)
 - [🔌 rSyslog ](-rSyslog-compatibility)
-- [♻️ UDP Relay](#-UDP-Relay)
+- [♻️ UDP Relay](#%EF%B8%8F-UDP-Relay)
 - [📊 Metrics](#-Metrics)
 - [🔍 Search](#-Search)
 - [💬 Linux client](#-Linux-Client)
-- [🎉 Example]#(#-Example)
+- [🎉 Example](#-Example)
 
 ### 📚 Sources
 Documentation used (udp socket): **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
@@ -87,9 +87,9 @@ Use pipeline and sending to rSyslog server:
 
 ### ♻️ UDP Relay
 
-Server (192.168.3.102): `Start-pSyslog -Port 514` \
-Relay  (192.168.3.99):  `Start-UDPRelay -inPort 515 -outIP 192.168.3.102 -outPort 514` \
-Client (192.168.3.100): `Send-pSyslog -Server 192.168.3.99 -PortServer 515 -Content $(Get-Date)`
+**Server** (192.168.3.102): `Start-pSyslog -Port 514` \
+**Relay**  (192.168.3.99):  `Start-UDPRelay -inPort 515 -outIP 192.168.3.102 -outPort 514` \
+**Client** (192.168.3.100): `Send-pSyslog -Server 192.168.3.99 -PortServer 515 -Content $(Get-Date)`
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/UDPRelay.jpg)
 
