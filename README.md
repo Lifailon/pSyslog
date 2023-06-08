@@ -2,8 +2,16 @@
 
 Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.Sockets** to Background Job mode.
 
-- [📚 Sources](#📚-Sources)
-- [🚀 Install](#🚀-Install-Module)
+- [📚 Sources](#-Sources)
+- [🚀 Install](#-Install-Module)
+- [📭 Server](#-pSyslog-Server)
+- [✉️ Client](#-pSyslog-Client)
+- [🔌 rSyslog ](-rSyslog-compatibility)
+- [♻️ UDP Relay](#-UDP-Relay)
+- [📊 Metrics](#-Metrics)
+- [🔍 Search](#-Search)
+- [💬 Linux client](#-Linux-Client)
+- [🎉 Example]#(#-Example)
 
 ### 📚 Sources
 Documentation used (udp socket): **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
@@ -33,7 +41,7 @@ Function        Start-pSyslog            0.5        pSyslog
 Function        Stop-pSyslog             0.5        pSyslog
 ```
 
-### 📫 pSyslog Server
+### 📭 pSyslog Server
 ```
 PS C:\Users\Lifailon> Start-pSyslog -Port 514
 PS C:\Users\Lifailon> Get-pSyslog -Status | Format-List
@@ -63,20 +71,30 @@ StartTime : 06.06.2023 1:09:47
 StopTime  : 06.06.2023 1:13:43
 ```
 
-### 📧 pSyslog Client
+### ✉️ pSyslog Client
 ```
 Send-pSyslog -Content "Test" -Server 192.168.3.99
 Send-pSyslog -Content "Test" -Server 192.168.3.99 -Type Informational -PortServer 514 -PortClient 55514
 ```
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog.jpg)
 
-### 📢 Use pipeline and sending to rSyslog server:
+### 🔌 rSyslog compatibility
+Use pipeline and sending to rSyslog server:
 ```
 (Get-Service -Name WinRM).Status | Send-pSyslog -Server 192.168.3.102 -Tag Service[WinRM]
 ```
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog-Rsyslog.jpg)
 
-### 📊 Out logfile to Object for collecting metrics
+### ♻️ UDP Relay
+
+Server (192.168.3.102): `Start-pSyslog -Port 514` \
+Relay  (192.168.3.99):  `Start-UDPRelay -inPort 515 -outIP 192.168.3.102 -outPort 514` \
+Client (192.168.3.100): `Send-pSyslog -Server 192.168.3.99 -PortServer 515 -Content $(Get-Date)`
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/UDPRelay.jpg)
+
+### 📊 Metrics
+Out logfile to Object for collecting metrics
 ```
 PS C:\Users\Lifailon> Show-pSyslog -Type Warning -Count
 2917
@@ -106,10 +124,12 @@ PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
 
 Example logfile system reboot: **[06-06-2023_reboot.log](https://github.com/Lifailon/pSyslog/blob/rsa/Example/06-06-2023_reboot.log)**
 
-### 🎉 Example output console powershell:
-
-![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/pSyslog-Console.jpg)
-
-### 💬 Example output local syslog (using tail):
+### 💬 Linux Client:
+Example output local syslog (using tail):
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Syslog-Local-Tail.jpg)
+
+### 🎉 Example
+Example pSyslog server output to console powershell:
+
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/pSyslog-Console.jpg)
