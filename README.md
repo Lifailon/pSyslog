@@ -1,6 +1,9 @@
 # pSyslog
 
-Syslog Server and Client based on **.NET Class System.Net.Sockets** to Background Job mode.
+Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.Sockets** to Background Job mode.
+
+- [📚 Sources](#📚-Sources)
+- [🚀 Install](#🚀-Install-Module)
 
 ### 📚 Sources
 Documentation used (udp socket): **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
