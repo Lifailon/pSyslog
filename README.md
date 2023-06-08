@@ -34,11 +34,12 @@ PS C:\Users\Lifailon> Get-Command -Module pSyslog
 
 CommandType     Name                     Version    Source
 -----------     ----                     -------    ------
-Function        Get-pSyslog              0.5        pSyslog
-Function        Send-pSyslog             0.5        pSyslog
-Function        Show-pSyslog             0.5        pSyslog
-Function        Start-pSyslog            0.5        pSyslog
-Function        Stop-pSyslog             0.5        pSyslog
+Function        Get-pSyslog              0.6        pSyslog
+Function        Send-pSyslog             0.6        pSyslog
+Function        Show-pSyslog             0.6        pSyslog
+Function        Start-pSyslog            0.6        pSyslog
+Function        Start-UDPRelay           0.6        pSyslog
+Function        Stop-pSyslog             0.6        pSyslog
 ```
 
 ### 📭 pSyslog Server
