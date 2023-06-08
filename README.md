@@ -6,7 +6,7 @@ Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.So
 - [🚀 Install](#-Install-Module)
 - [📭 Server](#-pSyslog-Server)
 - [✉️ Client](#%EF%B8%8F-pSyslog-Client)
-- [🔌 rSyslog ](-rSyslog-compatibility)
+- [🔌 rSyslog ](#-rsyslog-compatibility)
 - [♻️ UDP Relay](#%EF%B8%8F-UDP-Relay)
 - [📊 Metrics](#-Metrics)
 - [🔍 Search](#-Search)
