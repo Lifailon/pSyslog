@@ -7,6 +7,7 @@ Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.So
 - [📭 Server](#-pSyslog-Server)
 - [✉️ Client](#%EF%B8%8F-pSyslog-Client)
 - [🔌 rSyslog ](#-rsyslog-compatibility)
+- [🚧 Encrypt](#-Encrypt-Base64)
 - [♻️ UDP Relay](#%EF%B8%8F-UDP-Relay)
 - [📊 Metrics](#-Metrics)
 - [🔍 Search](#-Search)
@@ -79,12 +80,20 @@ Send-pSyslog -Content "Test" -Server 192.168.3.99 -Type Informational -PortServe
 ```
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog.jpg)
 
+
 ### 🔌 rSyslog compatibility
 Use pipeline and sending to rSyslog server:
 ```
 (Get-Service -Name WinRM).Status | Send-pSyslog -Server 192.168.3.102 -Tag Service[WinRM]
 ```
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Send-pSyslog-Rsyslog.jpg)
+
+### 🚧 Encrypt Base64
+```
+Send-pSyslog -Content "test" -Server 192.168.3.99 -PortServer 514
+Send-pSyslog -Content "test" -Server 192.168.3.99 -PortServer 514 -Base64
+```
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Encrypt-Base64.jpg)
 
 ### ♻️ UDP Relay
 
