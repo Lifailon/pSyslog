@@ -11,6 +11,7 @@ Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.So
 - [♻️ UDP Relay](#%EF%B8%8F-UDP-Relay)
 - [📊 Metrics](#-Metrics)
 - [🔍 Search](#-Search)
+- [Rotation](#-Rotation)
 - [💬 Linux client](#-Linux-Client)
 - [🎉 Example](#-Example)
 
@@ -93,7 +94,7 @@ Use pipeline and sending to rSyslog server:
 Send-pSyslog -Content "test" -Server 192.168.3.99 -PortServer 514
 Send-pSyslog -Content "test" -Server 192.168.3.99 -PortServer 514 -Base64
 ```
-Wireshark filter: `udp.dstport == 514 && ip.src == 192.168.3.100 && !icmp`
+**Wireshark filter:** `udp.dstport == 514 && ip.src == 192.168.3.100 && !icmp`
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Encrypt-Base64.jpg)
 
@@ -135,6 +136,15 @@ PS C:\Users\Lifailon> Show-pSyslog -Type Informational -Count
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Show-pSyslog-Out-GridView.jpg)
 
 Example logfile system reboot: **[06-06-2023_reboot.log](https://github.com/Lifailon/pSyslog/blob/rsa/Example/06-06-2023_reboot.log)**
+
+### Rotation
+Logfile rotation and show all log files in 24 hours:
+```
+Start-pSyslog -RotationSize 500
+Show-pSyslog -Count
+Show-pSyslog -Count -LogFile 10-06
+```
+![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Rotation-Logfile.jpg)
 
 ### 💬 Linux Client:
 Example output local syslog (using tail):
