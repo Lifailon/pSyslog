@@ -13,7 +13,6 @@ Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.So
 - [🔍 Search](#-Search)
 - [📑 Rotation](#-Rotation)
 - [🐧 Linux Client](#-Linux-Client)
-- [🎉 Example](#-Example)
 
 ### 📚 Sources
 Documentation used (udp socket): **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
