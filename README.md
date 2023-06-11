@@ -12,7 +12,7 @@ Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.So
 - [📊 Metrics](#-Metrics)
 - [🔍 Search](#-Search)
 - [📑 Rotation](#-Rotation)
-- [💬 Linux client](#-Linux-Client)
+- [🐧 Linux Client](#-Linux-Client)
 - [🎉 Example](#-Example)
 
 ### 📚 Sources
@@ -146,12 +146,13 @@ Show-pSyslog -Count -LogFile 10-06
 ```
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Rotation-Logfile.jpg)
 
-### 💬 Linux Client:
-Example output local syslog (using tail):
+### 🐧 Linux Client:
+
+**Example output local syslog (using tail):**
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/Syslog-Local-Tail.jpg)
 
-### 🎉 Example
-Example pSyslog server output to console powershell:
+
+**Example pSyslog server output to console powershell:**
 
 ![Image alt](https://github.com/Lifailon/pSyslog/blob/rsa/Screen/pSyslog-Console.jpg)
