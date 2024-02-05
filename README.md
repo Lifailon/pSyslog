@@ -3,7 +3,7 @@
 Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.Sockets** to Background Job mode.
 
 - [📚 Sources](#-Sources)
-- [🚀 Install](#-Install-Module)
+- [🚀 Install](#-Install)
 - [📭 Server](#-pSyslog-Server)
 - [✉️ Client](#%EF%B8%8F-pSyslog-Client)
 - [🔌 rSyslog ](#-rsyslog-compatibility)
@@ -15,14 +15,27 @@ Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.So
 - [🐧 Linux Client](#-Linux-Client)
 
 ### 📚 Sources
+
 Documentation used (udp socket): **[metanit.com](https://metanit.com/sharp/net/3.1.php)** \
 Documentation used (syslog message): **[devconnected.com](https://devconnected.com/syslog-the-complete-system-administrator-guide/)** \
 Source code refactoring syslog server: **[spiderip.com](https://spiderip.com/blog/2018/07/syslog)** \
 Source udp client: **[cloudbrothers.info](https://cloudbrothers.info/en/test-udp-connection-powershell/)**
 
-### 🚀 Install Module
+### 🚀 Install
 
-For install or update module from the GitHub repository (used the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)**) **use the command in the powershell console**:
+Install module from [NuGet repository](https://www.nuget.org/packages/pSyslog):
+
+```PowerShell
+Install-Module HardwareMonitor -Repository NuGet
+```
+
+💡 You must have a NuGet repository registered:
+
+```PowerShell
+Register-PSRepository -Name "NuGet" -SourceLocation "https://www.nuget.org/api/v2" -InstallationPolicy Trusted
+```
+
+Or used install or update module from the GitHub repository (used the script **[Deploy-pSyslog.ps1](https://github.com/Lifailon/pSyslog/blob/rsa/Module/Deploy-pSyslog.ps1)**) **use the command in the powershell console**:
 ```
 Invoke-Expression(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/Lifailon/pSyslog/rsa/Module/Deploy-pSyslog.ps1")
 ```
