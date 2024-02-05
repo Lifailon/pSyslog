@@ -26,7 +26,7 @@ Source udp client: **[cloudbrothers.info](https://cloudbrothers.info/en/test-udp
 Install module from [NuGet repository](https://www.nuget.org/packages/pSyslog):
 
 ```PowerShell
-Install-Module HardwareMonitor -Repository NuGet
+Install-Module pSyslog -Repository NuGet
 ```
 
 💡 You must have a NuGet repository registered:
