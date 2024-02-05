@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>pSyslog</id>
+    <version>0.7.0</version>
+    <authors>Lifailon</authors>
+    <owners>Lifailon</owners>
+    <description>PowerShell Syslog Server, Client and UDPRelay</description>
+    <tags>PowerShell, Module, syslog, syslog-client, syslog-server, UDPRelay</tags>
+    <projectUrl>https://github.com/Lifailon/pSyslog</projectUrl>
+    <contentFiles>
+      <files include="pSyslog.psm1" buildAction="Content" />
+      <files include="pSyslog.psd1" buildAction="Content" />
+      <files include="README.md" buildAction="Content" />
+      <files include="LICENSE" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>
