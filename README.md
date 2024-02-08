@@ -1,5 +1,10 @@
 # pSyslog
 
+[![GitHub Release](https://img.shields.io/github/v/release/Lifailon/pSyslog?display_name=release&logo=GitHub&label=GitHub&link=https%3A%2F%2Fgithub.com%2FLifailon%2FpSyslog%2F)](https://github.com/Lifailon/pSyslog)
+[![NuGet Version](https://img.shields.io/nuget/v/pSyslog?logo=NuGet&label=NuGet&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FpSyslog)](https://www.nuget.org/packages/pSyslog)
+[![GitHub top language](https://img.shields.io/github/languages/top/Lifailon/pSyslog?logo=PowerShell&link=https%3A%2F%2Fgithub.com%2FPowerShell%2FPowerShell)](https://github.com/PowerShell/PowerShell)
+[![GitHub License](https://img.shields.io/github/license/Lifailon/pSyslog?link=https%3A%2F%2Fgithub.com%2FLifailon%2FpSyslog%2Fblob%2Frsa%2FLICENSE)](https://github.com/Lifailon/pSyslog/blob/rsa/LICENSE)
+
 Syslog Server/Client and UDP Relay based on **.NET Framework Class System.Net.Sockets** to Background Job mode.
 
 - [📚 Sources](#-Sources)
