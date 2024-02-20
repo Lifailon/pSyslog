@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>pSyslog</id>
-    <version>0.7.0</version>
+    <version>0.7.1</version>
     <authors>Lifailon</authors>
     <owners>Lifailon</owners>
     <description>PowerShell Syslog Server, Client and UDPRelay</description>
-    <tags>PowerShell, Module, syslog, syslog-client, syslog-server, UDPRelay</tags>
+    <tags>PowerShell, Module, dotNET, Syslog, Syslog-Server, Syslog-Client, UDP-Relay, Base64, Log, Event</tags>
     <projectUrl>https://github.com/Lifailon/pSyslog</projectUrl>
     <contentFiles>
       <files include="pSyslog.psm1" buildAction="Content" />
